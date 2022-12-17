@@ -16,7 +16,10 @@ Then use this to retireve the raw data:
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-
+	float AccData[3];
+	float MagData[3];
+	float GyroData[3];
+	float TempData;
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
